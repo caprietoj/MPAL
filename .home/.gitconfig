@@ -1,0 +1,13 @@
+
+            [core]
+                    excludesFile = ~/.gitignore
+                    quotepath = off
+                    checkStat = minimal
+            [pull]
+                    rebase = false
+            [user]
+                    name = cristian prieto
+                    email = caprietojaws@gmail.com
+            [credential]
+                    helper = "!f() { echo \"username=$(cat /psb/tokens/.github)\npassword=\"; }; f"
+        
